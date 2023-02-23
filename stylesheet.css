@@ -1,0 +1,159 @@
+body
+{
+background-color:black;
+user-select: none;
+}
+
+#back{
+padding: 1rem;
+color: white;
+font-size: 2rem;
+display: none;
+background-color: rgb(111, 114, 247);
+border-radius: 2rem;
+width: 4rem;
+margin-left: 5rem;
+}
+
+.main
+{
+height: 100vh;
+}
+
+#nav
+{
+display: flex;
+font-size: 3rem;
+justify-content: space-between;
+color: white;
+padding: 1rem;
+}
+
+#add
+{
+font-size:2rem;
+background-color:#6e74ff ;
+color: white;
+border-radius: 5px;
+border:1px #6e74ff solid;
+}
+
+#cardFlex
+{
+justify-content: space-evenly;
+display: flex;
+margin-top: 1rem;
+flex-wrap: wrap;
+}
+
+#hiddenBox,#hiddenBox2
+{
+margin-top: 1rem;
+width: 600px;
+background-color: white;
+color: black;
+font-size: 2.2rem;
+text-align: center;
+padding: 1rem;
+margin-left: auto;
+margin-right: auto;
+display: none;
+position: absolute;
+z-index: 1;
+border-radius: 1rem;
+top: 10rem;
+left: 0;
+right: 0;
+BORDER: 1px solid black;
+}
+
+#listName,#listName2
+{
+text-align: center;
+font-size: 2.2rem;
+margin-top: 1rem;
+}
+
+#addCancel , #addCancel2
+{
+/*	color: red;*/
+display: flex;
+justify-content: space-around;
+margin-top: 1rem;
+}
+
+#addCancel div, #addCancel2 div
+{
+padding: 1rem;
+box-sizing: border-box;
+border-radius: 1rem;
+}
+
+.button
+{
+color: white;
+background-color:black;
+}
+
+.card
+{
+height: 350px;
+width: 300px;
+background-color:white;
+text-align: center;
+padding: 1rem;
+box-sizing: border-box;
+border-radius: 1rem;
+margin-top: 1rem;
+}
+
+.title
+{
+font-size: 2rem;
+border-bottom:1px black solid;
+font-weight: bold;
+}
+
+.content
+{
+height: 85%;
+overflow: auto;
+text-align:justify;
+font-size: 1.3rem;
+padding: 1rem;
+box-sizing: border-box;
+}
+
+.delAddItem
+{
+height: 15%;
+color: white;
+font-size: 1.5rem;
+padding: 0.3rem;
+box-sizing: border-box;
+font-family: 'Quicksand', sans-serif;
+}
+
+.addList
+{
+font-size:2rem;
+background-color:#6e74ff ;
+color: white;
+border-radius: 5px;
+border:1px #6e74ff solid;
+}
+
+.closeList
+{
+position: relative;
+top: -21.6rem;
+left: 9rem;
+}
+
+.cross
+{
+background-color: #616161;
+color: white;
+border-radius: 1rem;
+font-size: 2rem;
+}
